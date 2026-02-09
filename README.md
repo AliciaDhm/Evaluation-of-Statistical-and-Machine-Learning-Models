@@ -4,7 +4,7 @@ This project evaluates and compares variable selection methods from classical st
 To compare the performance of variable selection methods:
 
 Statistical Learning: Forward, Backward, Stepwise
-Machine Learning: Lasso, LARS, Elastic Net
+/ Machine Learning: Lasso, LARS, Elastic Net
 
 The comparison is carried out using multiple model selection criteria and performance metrics across different scenarios.
 
