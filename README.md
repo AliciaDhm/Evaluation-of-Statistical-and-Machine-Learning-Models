@@ -20,14 +20,14 @@ Real dataset:
 - Diabetes dataset (Efron et al.) used to test empirical performance on real observations.
 
 ## Methodology
-Language: SAS
 Main procedures:
 - PROC IML (data generation / simulations)
 - PROC GLMSELECT (variable selection)
 
-Selection criteria (depending on the script):
-- AIC, BIC/SBC, Cp, Adjusted R²
+Selection criteria:
+- AIC/AICc, BIC/SBC, Cp, Adjusted R²
 - K-fold Cross-Validation
+- PRESS Statistic (Leave-One-Out)
 
 Performance evaluation over multiple replications using:
 - Perfect fit
