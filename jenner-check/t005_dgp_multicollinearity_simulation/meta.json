@@ -1,0 +1,7 @@
+{
+  "bundle": "t005_dgp_multicollinearity_simulation",
+  "source_file": "Code/Simulations and metrics.sas",
+  "source_blob_sha": "8e554532724865e71c287776da27a6fe5e1c1522",
+  "source_commit": "6b6d9a82cf67882382e06229afc2564653c9c6c8",
+  "notes": "The multicollinearity data-generating-process block (PROC IML, randseed 12345): builds a Toeplitz correlation among the first six predictors (r={1,0.8,0.75,0.7,0.65,0.6}) inside an otherwise identity covariance, draws X ~ RandNormal(200, Mu, Varcovar), and forms Y = X*Beta + eps with the authored sparse Beta. Replication count reduced from 1000 to 100 for a fast captured run; PROC MEANS and PROC CORR summaries confirm the induced X1-X6 correlation (empirically ~0.82 for X1-X2, matching the design). Deterministic across repeated POSTs."
+}

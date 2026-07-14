@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_bias_variance_tradeoff",
+  "source_file": "Code/The bias variance trade-off.sas",
+  "source_blob_sha": "b600ed0c42b3d4242b76f697c4ea7b1773e2d090",
+  "source_commit": "6b6d9a82cf67882382e06229afc2564653c9c6c8",
+  "notes": "PROC IML Monte Carlo (randseed 12345, 1000 reps) computing bias-squared and variance for polynomial fits of degree 0/2/8, then PROC SGPLOT of the fitted curves. Fully self-contained (no external data); runs unmodified. Deterministic across repeated POSTs."
+}

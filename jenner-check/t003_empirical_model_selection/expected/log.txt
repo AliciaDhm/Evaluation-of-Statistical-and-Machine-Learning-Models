@@ -1,0 +1,28 @@
+NOTE: Jenner v1.5.30 (build v1.5.30+unknown.20260714T020019Z.x86_64-unknown-linux-gnu)
+
+NOTE: Option OBS changed to 100.
+NOTE: DATA WORK.DIABETES
+
+NOTE: Processing inline DATALINES (80 lines)
+
+NOTE: Read 80 rows from DATALINES.
+NOTE: Wrote WORK.DIABETES (80 rows, 11 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: Option TITLE changed to 1. Sélection STEPWISE avec critère AIC.
+NOTE: PROC GLMSELECT data=WORK.DIABETES
+
+NOTE: PROC GLMSELECT statement used.
+NOTE: Option TITLE changed to 2. Sélection STEPWISE avec critère SBC.
+NOTE: PROC GLMSELECT data=WORK.DIABETES
+
+NOTE: PROC GLMSELECT statement used.
+NOTE: Option TITLE changed to 3. Régression LASSO.
+NOTE: PROC GLMSELECT data=WORK.DIABETES
+
+NOTE: PROC GLMSELECT statement used.
+NOTE: Option TITLE changed to 4. Régression ELASTIC NET.
+NOTE: PROC GLMSELECT data=WORK.DIABETES
+
+NOTE: PROC GLMSELECT statement used.
