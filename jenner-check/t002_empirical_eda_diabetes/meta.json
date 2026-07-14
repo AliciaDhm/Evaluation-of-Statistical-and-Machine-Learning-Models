@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_empirical_eda_diabetes",
+  "source_file": "Code/Empirical Analysis.sas",
+  "source_blob_sha": "23c2153416a7d4fa1baa7d584a444c59be9d755c",
+  "source_commit": "6b6d9a82cf67882382e06229afc2564653c9c6c8",
+  "notes": "The exploratory-analysis section of the Diabetes empirical study: PROC CONTENTS/FREQ/MEANS, PROC CORR (pearson and best=5 with Y), and PROC REG with VIF/COLLIN diagnostics, run exactly as authored. The original read the Diabetes.txt file via a hardcoded path; here an 80-row mock sample matching the AGE SEX BMI BP S1-S6 Y shape is supplied inline (datalines) in autoexec so the analysis runs self-contained. Deterministic across repeated POSTs."
+}

@@ -1,0 +1,7 @@
+{
+  "bundle": "t003_empirical_model_selection",
+  "source_file": "Code/Empirical Analysis.sas",
+  "source_blob_sha": "23c2153416a7d4fa1baa7d584a444c59be9d755c",
+  "source_commit": "6b6d9a82cf67882382e06229afc2564653c9c6c8",
+  "notes": "The variable-selection comparison on the Diabetes data: four PROC GLMSELECT runs (STEPWISE with AIC, STEPWISE with SBC, LASSO, ELASTIC NET), each with partition fraction(validate=0.3) and seed=12345, exactly as authored. The original read Diabetes.txt via a hardcoded path; here an 80-row mock sample matching the AGE SEX BMI BP S1-S6 Y shape is supplied inline (datalines) in autoexec. Deterministic across repeated POSTs."
+}

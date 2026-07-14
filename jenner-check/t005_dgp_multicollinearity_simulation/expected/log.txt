@@ -1,0 +1,16 @@
+NOTE: Jenner v1.5.30 (build v1.5.30+unknown.20260714T020019Z.x86_64-unknown-linux-gnu)
+
+NOTE: Option OBS changed to 100.
+NOTE: PROC IML 
+
+
+NOTE: PROC IML elapsed:
+  wall  1.57 seconds
+  cpu   1.57 seconds
+NOTE: Option TITLE changed to DGP Multicolinearite - resume (Y et predicteurs correles X1-X6).
+NOTE: PROC MEANS
+NOTE: PROC MEANS statement used.
+NOTE: PROC CORR data=DGP_Multicolinearite
+
+NOTE: ODS plot written: corr_heatmap.spec.json
+NOTE: PROC CORR ODS Graphics generated.

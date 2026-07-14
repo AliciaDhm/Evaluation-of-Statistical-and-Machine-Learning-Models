@@ -1,0 +1,7 @@
+{
+  "bundle": "t004_dgp_gaussian_simulation",
+  "source_file": "Code/Simulations and metrics.sas",
+  "source_blob_sha": "8e554532724865e71c287776da27a6fe5e1c1522",
+  "source_commit": "6b6d9a82cf67882382e06229afc2564653c9c6c8",
+  "notes": "The Gaussian data-generating-process block (PROC IML, randseed 12345): draws X ~ N(0, I_50) over MC replications of n=200, forms Y = X*Beta + eps with the authored sparse Beta {1,-0.35,0.15,0.27,0.57,-0.14} in the first six coordinates, and stores DGP_Gaussien. Replication count reduced from 1000 to 100 for a fast captured run; the interactive re-run cleanup (proc datasets delete) that only applies to repeated sessions was omitted. A PROC MEANS summary of Y and selected predictors is appended. Deterministic across repeated POSTs."
+}
